@@ -5,7 +5,7 @@ from aiogram import Bot, Dispatcher, F
 from aiogram.types import Message, ReplyKeyboardMarkup, KeyboardButton
 from aiogram.filters import CommandStart
 
-TOKEN = "8611652129:AAG1VO3Y-sW-os_Wz53RV3LlZhwOv6wJ7Oc"
+TOKEN = os.getenv("TOKEN")
 CHANNEL = "@vexonova"
 ADMIN_ID =  7288303373  # ВСТАВ СВІЙ ЧИСЛОВИЙ ID
 
